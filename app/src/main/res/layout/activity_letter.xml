@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LetterActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_marginHorizontal="15dp">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/image_letter"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_letter_title"
+        android:fontFamily="@font/inter_semi_bold"
+        android:textSize="24sp"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center"
+        android:textColor="@color/color_text_third"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_letter_description"
+        android:fontFamily="@font/inter_medium"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:textColor="@color/color_text_fourth"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonLetterNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/color_main"
+        android:fontFamily="@font/inter_semi_bold"
+        android:padding="15dp"
+        android:layout_marginHorizontal="5dp"
+        android:text="@string/text_password_reset"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cornerRadius="16dp"
+        android:layout_marginTop="50dp"
+        android:textAllCaps="false"
+        android:stateListAnimator="@null"
+        android:textAppearance="?attr/textAppearanceBody2"/>
+
+</LinearLayout>
